@@ -31,8 +31,8 @@ const experiences = [
 
 export default function SkillsAndExperience() {
   return (
-    <section className="bg-[#08090a] py-24 md:py-32 border-t border-white/5">
-      <div className="max-w-[1100px] mx-auto px-6 md:px-10">
+    <section id="experience" className="bg-[#08090a] py-24 md:py-32 border-t border-white/5 relative z-10 overflow-hidden">
+      <div className="max-w-[1300px] mx-auto px-6 md:px-10">
         {/* Section header */}
         <div className="flex items-center gap-4 mb-12 justify-center">
           <div className="h-px flex-1 bg-white/8 max-w-[120px]" />

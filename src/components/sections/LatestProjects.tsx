@@ -89,7 +89,7 @@ export default function LatestProjects() {
 
   return (
     <section id="projects" className="bg-[#08090a] py-24 md:py-32 border-t border-white/5">
-      <div className="max-w-[1100px] mx-auto px-6 md:px-10">
+      <div className="max-w-[1300px] mx-auto px-6 md:px-10">
         {/* Section header */}
         <div className="flex flex-col items-center text-center mb-12">
           <div className="flex items-center gap-2 mb-4">

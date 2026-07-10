@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function ProjectsShowcase() {
   return (
-    <section className="bg-[#08090a] py-24 md:py-32 border-t border-white/5">
-      <div className="max-w-[1100px] mx-auto px-6 md:px-10">
+    <section id="projects" className="bg-[#08090a] py-24 md:py-32 border-t border-white/5 overflow-hidden">
+      <div className="max-w-[1300px] mx-auto px-6 md:px-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
           {/* Left: Stacked image collage */}
           <div className="flex flex-col items-center">

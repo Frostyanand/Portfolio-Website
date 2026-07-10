@@ -20,13 +20,13 @@ export default function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <div className="max-w-[1280px] mx-auto px-6 md:px-10 h-14 flex items-center justify-between">
+      <div className="max-w-[1300px] mx-auto px-6 md:px-10 h-14 flex items-center justify-between">
         {/* Logo */}
         <Link
           href="/"
           className="flex items-center gap-2 text-white text-sm font-medium hover:opacity-70 transition-opacity"
         >
-          <span className="text-[15px] tracking-tight font-semibold">✦ Fade</span>
+          <span className="text-[15px] tracking-tight font-semibold">✦</span>
         </Link>
 
         {/* Desktop Nav */}
