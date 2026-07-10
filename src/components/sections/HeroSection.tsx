@@ -329,30 +329,42 @@ export default function HeroSection() {
             </span>
           </div>
 
-          {/* Name */}
-          <h1 style={{
-            fontFamily: '"Instrument Serif", "Instrument Serif Placeholder", serif',
-            fontSize: 48,
-            fontWeight: 400,
-            fontStyle: "italic",
-            color: "rgba(255,255,255,0.6)",
-            letterSpacing: "-0.96px",
-            lineHeight: "57.6px",
-            margin: "0 0 10px 0",
-          }}>
-            Anurag Anand
-          </h1>
+            {/* Name */}
+            <h1 style={{
+              fontSize: "clamp(3rem, 8vw, 4.5rem)",
+              fontFamily: '"Instrument Serif", serif',
+              fontWeight: 400,
+              fontStyle: "italic",
+              lineHeight: 1.1,
+              letterSpacing: "-0.02em",
+              color: "#ffffff",
+              marginBottom: 12,
+            }}>
+              <span className="text-white">Anurag</span> <span className="text-white/60">Anand</span>
+            </h1>
 
-          {/* Tagline */}
-          <p style={{
-            fontFamily: "Inter, sans-serif",
-            fontSize: 16, fontWeight: 400,
-            color: "rgba(255,255,255,0.6)",
-            letterSpacing: "-0.32px", lineHeight: "25.6px",
-            margin: "0 0 22px 0",
-          }}>
-            Tech is my Canvas&nbsp;&nbsp;Code is my Brush
-          </p>
+            {/* Title / Company */}
+            <div style={{
+              marginBottom: 24,
+            }}>
+              <p className="text-[16px] font-medium text-white/80 mb-1">
+                Founder
+              </p>
+              <p className="text-[12px] tracking-[0.15em] uppercase text-white/40">
+                accemberg technologies
+              </p>
+            </div>
+
+            {/* Tagline */}
+            <p style={{
+              fontSize: 15,
+              fontWeight: 400,
+              color: "rgba(255,255,255,0.6)",
+              letterSpacing: "-0.32px", lineHeight: "25.6px",
+              margin: "0 0 24px 0",
+            }}>
+              Building what&apos;s next.
+            </p>
 
           {/* Icons */}
           <div style={{

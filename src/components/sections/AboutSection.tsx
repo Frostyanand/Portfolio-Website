@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function AboutSection() {
   return (
-    <section 
+    <section
       id="about"
       style={{
         position: "relative",
@@ -41,12 +41,12 @@ export default function AboutSection() {
             marginBottom: 20,
             lineHeight: 1.1
           }}>
-            More about <span style={{ 
-              fontFamily: '"Instrument Serif", serif', 
-              fontStyle: "italic", 
+            A little <span style={{
+              fontFamily: '"Instrument Serif", serif',
+              fontStyle: "italic",
               fontWeight: 400,
-              color: "rgba(255,255,255,0.6)" 
-            }}>myself</span>
+              color: "rgba(255,255,255,0.6)"
+            }}>about me</span>
           </h2>
 
           <p style={{
@@ -58,10 +58,7 @@ export default function AboutSection() {
             maxWidth: 440,
             letterSpacing: "-0.2px"
           }}>
-            Hi, I&apos;m Anurag Anand. I&apos;m a builder at heart. Every project I
-            take on begins with empathy and ends with intention — not just to
-            function, but to feel. For me, technology is both a canvas and a
-            quiet conversation, where even the smallest detail carries meaning.
+            Hi I&apos;m Anurag, I&apos;m curious by nature and an engineer by choice. I enjoy turning ambitious ideas into reliable software, whether that&apos;s AI systems, secure infrastructure, or products people use every day. Every project has taught me something new, and that curiosity is still what drives me.
           </p>
 
           {/* Read More button */}
@@ -71,8 +68,8 @@ export default function AboutSection() {
               display: "inline-flex", alignItems: "center", gap: 10,
               padding: "16px 32px",
               borderRadius: 118,
-              background: "rgba(5, 5, 5, 0.6)", 
-              border: "1px solid rgba(255, 255, 255, 0.12)", 
+              background: "rgba(5, 5, 5, 0.6)",
+              border: "1px solid rgba(255, 255, 255, 0.12)",
               color: "#ffffff",
               fontSize: 16,
               fontFamily: "Inter, sans-serif",
@@ -82,7 +79,7 @@ export default function AboutSection() {
               boxShadow: "inset 0px -1px 2px 0px rgba(255,255,255,0.3)",
               overflow: "hidden"
             }}>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" style={{width: 15, height: 15, fill: "currentColor"}}>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" style={{ width: 15, height: 15, fill: "currentColor" }}>
                 <path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path>
               </svg>
               Read More
@@ -100,7 +97,7 @@ export default function AboutSection() {
 
         {/* ── RIGHT IMAGE WITH GLOW ── */}
         <div style={{ order: 2, display: "flex", justifyContent: "flex-end", position: "relative" }}>
-          
+
           {/* Huge soft white glow behind the image (The halo) */}
           <div style={{
             position: "absolute", top: "10%", left: "10%", right: "10%", bottom: "10%",
